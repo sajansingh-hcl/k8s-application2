@@ -4,7 +4,7 @@
 
 replicaCount: 10
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: quay.io/argoprojlabs/argocd-e2e-container
   tag: 0.1
   pullPolicy: IfNotPresent
   
